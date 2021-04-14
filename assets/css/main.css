@@ -1,0 +1,138 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.show-banner {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(68, 1, 116);
+    background-image: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1315&q=80");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+
+.show-banner-sub {
+    padding: 0px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.show-banner h1 {
+    font-size: 30pt;
+}
+
+.logo-cap {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo-area {
+    display: flex;
+    width: 70%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo-area img {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.179);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.145);
+    border-radius: 5px;
+}
+
+#memoji {
+    width: 200px;
+}
+
+.btn-action {
+    text-align: center;
+    background-color: rgb(6, 199, 102);
+    width: 60%;
+    padding: 15px;
+    margin: 12px;
+    margin-left: 0;
+    border-radius: 3px;
+    border: solid 3px white;
+}
+
+.btn-action a {
+    text-decoration: none;
+    color: white;
+}
+
+.promo {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.promo a {
+    text-decoration: none;
+    color: springgreen;
+}
+
+.promo a:hover {
+    text-decoration: underline;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.services section {
+    box-shadow: 1px 2px 2px 2px rgb(3, 175, 89);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.services ul {
+    list-style: inside;
+    padding: 5px;
+}
+
+.services h1 {
+    font-size: 30pt;
+    padding: 10px;
+    color: rgb(3, 175, 89);
+}
+
+.services h4 {
+    font-size: 15pt;
+    padding: 10px;
+}
+
+#check {
+    width: 16px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
