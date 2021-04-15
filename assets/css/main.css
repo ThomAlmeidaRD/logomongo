@@ -8,8 +8,8 @@
 .show-banner {
     padding: 0;
     margin: 0;
-    background-color: rgb(68, 1, 116);
-    background-image: url("https://cdn.dribbble.com/users/247458/screenshots/5083720/wallpaper2.jpg?compress=1&resize=800x600");
+    background-color: #150126;
+    background-image: url("");
     background-position: center;
     background-size: cover;
     color: white;
@@ -82,7 +82,7 @@ nav li {
 
 .btn-action {
     text-align: center;
-    background-color: rgb(6, 199, 102);
+    background-color: #0CA55A;
     width: 90%;
     padding: 15px;
     margin: 12px;
@@ -121,21 +121,47 @@ nav li {
 }
 
 .services section {
-    box-shadow: 1px 2px 2px 2px rgb(3, 175, 89);
     margin: 10px;
     padding: 10px;
     width: 300px;
 }
 
+#services-1 {
+    box-shadow: 2px 2px 6px 4px #0CA55A;
+}
+
+#services-1 h1 {
+    color: #010626;
+}
+
+#services-2 {
+    box-shadow: 2px 2px 6px 4px #0CA55A;
+}
+
+#services-2 h1 {
+    color: #010626;
+}
+
+#services-3 {
+    box-shadow: 2px 2px 6px 4px #0CA55A;
+}
+
+#services-3 h1 {
+    color: #010626;
+}
+
 .services ul {
-    list-style: inside;
+    list-style: none;
     padding: 5px;
+}
+
+.services li {
+    padding-left: 5px;
 }
 
 .services h1 {
     font-size: 30pt;
     padding: 10px;
-    color: rgb(3, 175, 89);
 }
 
 .services h4 {
@@ -148,6 +174,55 @@ nav li {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.about-area {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.about-items {
+    height: 300px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #150126;
+    color: white;
+}
+
+.about-items ul {
+    list-style: none;
+    text-align: center;
+}
+
+.about-items li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.about-items a {
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.about-items h2{
+    margin: 20px;
+}
+
+#whatsapp {
+    background-color: rgb(4, 150, 77);
+}
+
+#instagram {
+    background-color: rgb(153, 2, 136);
 }
 
 footer {
