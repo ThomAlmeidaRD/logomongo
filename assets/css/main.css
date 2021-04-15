@@ -4,15 +4,16 @@
     margin: 0;
 }
 
+@import url('sliders.css');
 .show-banner {
     padding: 0;
     margin: 0;
     background-color: rgb(68, 1, 116);
-    background-image: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1315&q=80");
+    background-image: url("https://cdn.dribbble.com/users/247458/screenshots/5083720/wallpaper2.jpg?compress=1&resize=800x600");
     background-position: center;
     background-size: cover;
     color: white;
-    height: 600px;
+    height: 700px;
 }
 
 .show-banner-sub {
@@ -47,6 +48,7 @@ nav li {
 
 .logo-area {
     display: flex;
+    margin: 20px;
     width: 70%;
     align-content: center;
     align-items: center;
@@ -63,6 +65,17 @@ nav li {
     border-radius: 5px;
 }
 
+.logo-item {
+    margin: 15px;
+}
+
+.logo-item h4 {
+    padding-left: 10px;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+}
+
 #memoji {
     width: 200px;
 }
@@ -70,7 +83,7 @@ nav li {
 .btn-action {
     text-align: center;
     background-color: rgb(6, 199, 102);
-    width: 60%;
+    width: 90%;
     padding: 15px;
     margin: 12px;
     margin-left: 0;
@@ -135,4 +148,30 @@ nav li {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 20px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
